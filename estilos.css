@@ -1,0 +1,254 @@
+body{
+	padding:0px; 
+	margin:0px;
+	background-image: url(fonfoo.jpeg); 
+	background-size: 100%;
+}
+
+
+.con{
+	position: relative;
+
+}
+
+.man{
+	position: absolute;
+	left: 400px;
+	top: 100px;
+}
+.mi{
+	position:absolute;
+	left: 641px;
+	top: 120px;
+}
+
+.nom{
+	position:absolute;
+	display:none;
+	color: white;
+	top: 250px;
+	left: 660px;
+	font-family: arial;
+	animation: opa 1s;
+}
+
+
+button{
+	position:absolute;
+    height: 10px;
+	background-color: black;
+
+}
+
+.pu{
+	position: absolute;
+	background-color: #3792D9;
+	width: 40px;
+	height: 40px;
+	top: 197px;
+	left: 897px;
+	border-radius: 40px;
+}
+
+.pu:hover{
+	width: 38px;
+	height: 38px;
+	top: 198px;
+	left: 898px;
+	background-color: #3688AA;
+}
+
+.pd{
+	position: absolute;
+	background-color:#E0D14E;
+	width: 40px;
+	height: 40px;
+	top: 148px;
+	left: 946px;
+	border-radius: 40px;
+}
+
+.pd:hover{
+	width: 38px;
+	height: 38px;
+	top: 149px;
+	left: 947px;
+	background-color: #9EAA36;
+}
+
+.pt{
+	position: absolute;
+	background-color:#DC2424;
+	width: 41px;
+	height: 40px;
+	top: 197px;
+	left: 993px;
+	border-radius: 40px;
+}
+
+.pt:hover{
+	width: 38px;
+	height: 38px;
+	top: 198px;
+	left: 994px;
+	background-color:#964545;
+}
+
+.pc{
+	position: absolute;
+	background-color:#43CA4D;
+	width: 40px;
+	height: 40px;
+	top: 246px;
+	left: 946px;
+	border-radius: 40px;
+}
+
+.pc:hover{
+	width: 38px;
+	height: 38px;
+	top: 247px;
+	left: 947px;
+	background-color:#397C36;
+}
+
+p{
+	position: relative;
+	bottom: 2px;
+	left: 0px;
+
+}
+
+.boiz{
+	position: absolute;
+	left: -550px;
+}
+
+.pui{
+	position: absolute;
+	background-color:#656161;
+	width: 44px;
+	height: 36px;
+	top: 202px;
+	left: 1020px;
+	border-radius: 40px;
+}
+
+.pui:hover{
+	background-color: #4A4747;
+}
+
+.pdi{
+	position: absolute;
+	background-color:#656161;
+	width: 36px;
+	height: 44px;
+	top: 162px;
+	left: 1059px;
+	border-radius: 40px;
+}
+
+.pdi:hover{
+	background-color: #4A4747;
+}
+
+.pti{
+	position: absolute;
+	background-color:#656161;
+	width: 44px;
+	height: 36px;
+	top: 202px;
+	left: 1091px;
+	border-radius: 40px;
+}
+
+.pti:hover{
+	background-color: #4A4747;
+}
+
+.pci{
+	position: absolute;
+	background-color:#656161;
+	width: 36px;
+	height: 44px;
+	top: 235px;
+	left: 1061px;
+	border-radius: 40px;
+}
+
+.pci:hover{
+	background-color: #4A4747;
+}
+
+
+/* PERIODO 1 */
+.conu{
+	position: absolute;
+	top: 1000px;
+	width:100%;
+	height: 950px;
+	background-color:white;
+}
+
+.peu{
+	position: absolute;
+	width: 350px;
+	height: 100px;
+	top: 50px;
+	left: 500px;
+	background-color:#222DC3;
+	color: white;
+	font-family: arial;
+	font-size: 60px; 
+	border-radius: 10px;
+}
+
+.le{
+	position: relative;
+	bottom: 50px;
+	left: 30px;
+
+}
+
+.flt{
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	top: 10px;
+	left: 1150px;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.lt{
+	position: relative;
+	bottom: 50px;
+	font-size: 60px;
+	font-family: arial;
+    animation: opa 1s;
+}
+
+.log{
+	position: absolute;
+	display: none;
+	left: 1227px;
+	top: 400px;
+	animation: opa 1s;
+}
+
+.gd{
+	position: absolute;
+	left: 1260px;
+	top: 550px;
+	width: 75px;
+	height: 40px;
+	font-size: 30px;
+	display: none;
+	animation: opa 1s;
+}
+
+@keyframes opa {
+	 0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
