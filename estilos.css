@@ -266,3 +266,12 @@ a{
 	background-color: #999999;
 	color: white;
 }
+.exos{
+	position: relative;
+	left: 600px;
+	top: 250px;
+	width: 130px;
+	height: 35px;
+	background-color: #999999;
+	color: white;
+}
