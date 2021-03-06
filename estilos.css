@@ -293,3 +293,13 @@ a{
 	background-color: #999999;
 	color: white;
 }
+
+.exot{
+	position: relative;
+	left: 600px;
+	top: 500px;
+	width: 130px;
+	height: 35px;
+	background-color: #999999;
+	color: white;
+}
